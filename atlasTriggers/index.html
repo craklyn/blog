@@ -46,16 +46,31 @@
 
           <figure class="figure">
             <img src="ATLAS_event_display_vp1_run266904_evt25855182_2015-06-03T13-41-48_b.png" class="center-block img-responsive" width="70%">
-            <figcaption class="figure-caption" align="center">An ATLAS event display.  The towers of green and yellow represent energy measurements by the detector.  The two regions of significant energy are interpretted as jets.</figcaption>
+            <figcaption class="figure-caption" align="center">An ATLAS event display.  The regions of green and yellow contain energy measurements that are interpretted as jets.</figcaption>
           </figure>
           <br>
 
-          <p>In 2011 and 2012, the LHC provided proton collisions every 50 nanoseconds, or 20,000,000 collisions per second.  Each event requires about 1.6 MB of storage to preserve.  This would present an impossible data challenge if all physics events were stored, and is overcome by the use of triggers.  Triggers are hardware and software that run in ATLAS to filter the most interesting events that should be permanently stored.  The other events, which make up the vast majority, are not stored to disk and are permanently forgotten.</p>
+          <p>In 2011 and 2012, the LHC provided proton collisions every 50 nanoseconds, or 20,000,000 collisions per second.  Each event requires about 1.6 MB of storage to preserve.  This would present an impossible data challenge if all physics events were stored, and is overcome by the use of triggers.  Triggers are hardware and software that run in ATLAS to filter the most interesting events that should be permanently stored.  The other events, the vast majority, are not stored to disk and are permanently forgotten.</p>
           <img src="FilterDiagram.svg" class="center-block img-responsive" width="50%">
           <p>What do triggers look for?  They look for signatures of elementary particles such as electrons, muons, taus, and photons.  They look for clusters of particles in a small space that collectively have significant energy, called jets.  They look for jets  on one side of the detector with a lack of particles recoiling toward the opposite side, called missing energy.  When the triggers see these signatures and the signatures are of sufficiently high energy, the event is stored permanently for further physics analysis.</p>
           <p>Now, what happens if there is new physics out there that differs vastly from what these triggers look for?  In that case, these new physics events would never be stored, nobody would ever see them, and no discovery could ever be made.  And this is where my research begins...</p>
 
           <h4>Triggers for Displaced Decays</h4>
+          <p>If there are new particles out there, they might be different from any physics we've seen before.  The particle and jet triggers may not select exotic physics signatures.</p>
+
+          <p>Reiterating what was said before: Events that aren't selected by triggers, they are lost forever.  It is imperative to create triggers that can find new physics.</p>
+
+          <figure class="figure">
+            <img src="iddecay.png" class="center-block img-responsive" width="50%">
+            <figcaption class="figure-caption" align="center">Event display, showing a decay in the outer tracker (A)</figcaption>
+          </figure>
+
+
+          <figure class="figure">
+            <img src="hcalmsdecays.png" class="center-block img-responsive" width="50%">
+            <figcaption class="figure-caption" align="center">Event display, showing a decay in the jet detector (B) and muon detector (C).</figcaption>
+          </figure>
+
         </div>
       </div>
 
