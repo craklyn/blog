@@ -4,7 +4,7 @@ body {
   padding-bottom: 20px;
 }
 
-#my-div {
+#div-clickTarget {
     background-color: #f00;
     width: 200px;
     height: 200px;
