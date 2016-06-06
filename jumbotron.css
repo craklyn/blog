@@ -4,11 +4,6 @@ body {
   padding-bottom: 20px;
 }
 
-#div-clickTarget {
-    background-color: #f00;
-    width: 200px;
-    height: 200px;
-}
 a.fill-div {
     display: block;
     height: 100%;
