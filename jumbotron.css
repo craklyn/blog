@@ -13,3 +13,14 @@ a.fill-div {
     color: inherit;
     text-decoration: inherit;
 }
+
+a.noshowLink {
+    text-decoration: none;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a.noshowLink:hover, a.noshowLink:focus {
+    text-decoration: none;
+    color: inherit;
+}
