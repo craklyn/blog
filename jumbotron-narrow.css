@@ -78,6 +78,10 @@ body {
   }
 }
 
-figure.figure-caption {
-  color: #777777
+figcaption.figure-caption {
+  color: #777777;
+  font-size: 12px;
+  max-width: 70%;
+  margin: auto;
+  text-align: left;
 }
