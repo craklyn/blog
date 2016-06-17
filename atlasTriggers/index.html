@@ -41,7 +41,7 @@
       <div class="row marketing">
         <div class="col-lg-12">
           <h4>Atlas Triggering</h4>
-          <p>Interesting physics events are incredibly rare.  If I want to observe the Higgs boson, it might be created in a proton-proton collision at the LHC once per 10 billion (10<sup>10</sup>) collisions.  In other words, very rarely.  Since interesting physics events are so rare, many protons must be collided very frequently.</p>
+          <p>Interesting physics events are incredibly rare.  If I want to observe the Higgs boson, I expect that I need 10 billion proton collisions at the LHC (that's 10<sup>10</sup> collisions!) to produce a single Higgs boson.  In other words, exciting new physics is very rare.  In order to find such rare events, the LHC must collide protons very frequently.</p>
 
           <figure class="figure">
             <img src="ATLAS_event_display_vp1_run266904_evt25855182_2015-06-03T13-41-48_b.png" class="center-block img-responsive" width="70%">
@@ -49,7 +49,10 @@
           </figure>
           <br>
 
-          <p>In 2011 and 2012, the LHC provided proton collisions every 50 nanoseconds, or 20,000,000 collisions per second.  Each event requires about 1.6 MB of storage to preserve.  This would present an impossible data challenge if all physics events were stored, and is overcome by the use of triggers.  Triggers are hardware and software that run in ATLAS to filter the most interesting events that should be permanently stored.  The other events, the vast majority, are not stored to disk and are permanently forgotten.</p>
+          <p>In 2011 and 2012, the LHC provided proton collisions every 50 nanoseconds, or 20 million collisions per second.  Each event uses about 1.6 MB of disk space to store.  This would present an impossible data challenge if all collision events were stored.  Instead, only a small fraction are kept.</p>
+
+          <p>Triggers are hardware and software that run in ATLAS to filter the most interesting events that should be permanently stored.  The other events, the vast majority, are not stored to disk and are permanently forgotten.</p>
+
           <img src="FilterDiagram.svg" class="center-block img-responsive" width="50%">
           <p>What do triggers look for?  They look for signatures of elementary particles such as electrons, muons, taus, and photons.  They look for clusters of particles in a small space that collectively have significant energy, called jets.  They look for jets  on one side of the detector with a lack of particles recoiling toward the opposite side, called missing energy.  When the triggers see these signatures and the signatures are of sufficiently high energy, the event is stored permanently for further physics analysis.</p>
           <p>Now, what happens if there is new physics out there that differs vastly from what these triggers look for?  In that case, these new physics events would never be stored, nobody would ever see them, and no discovery could ever be made.  And this is where my research begins...</p>
