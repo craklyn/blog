@@ -51,10 +51,16 @@
 
           <p>In 2011 and 2012, the LHC provided proton collisions every 50 nanoseconds, or 20 million collisions per second.  Each event uses about 1.6 MB of disk space to store.  This would present an impossible data challenge if all collision events were stored.  Instead, only a small fraction are kept.</p>
 
-          <p>Triggers are hardware and software that run in ATLAS to filter the most interesting events that should be permanently stored.  The other events, the vast majority, are not stored to disk and are permanently forgotten.</p>
+          <p>Triggers are the hardware and software in ATLAS that select the most interesting events that should be permanently stored.  The other events, the vast majority, are not stored to disk - permanently forgotten.</p>
 
           <img src="FilterDiagram.svg" class="center-block img-responsive" width="50%">
-          <p>What do triggers look for?  They look for signatures of elementary particles such as electrons, muons, taus, and photons.  They look for clusters of particles in a small space that collectively have significant energy, called jets.  They look for jets  on one side of the detector with a lack of particles recoiling toward the opposite side, called missing energy.  When the triggers see these signatures and the signatures are of sufficiently high energy, the event is stored permanently for further physics analysis.</p>
+          <p>What do triggers look for?  They look for signatures of elementary particles such as electrons, muons, taus, and photons:</p>
+          <ul>
+            <li>  <i>Jets</i>:  Clusters of particles traveling in the same direction leaving significant energy in the Calorimeter.</li>
+            <li>  <i>Missing Momentum</i>: The law of conservation of momentum tells us that if there are particle jets in one direction of the detector, they must have recoiled of of other particles travelling the other way.  If we don't see a balance in momentum, we say there is momentum missing.</li>
+            <li>  Muons: Muons are identified with the Muon Detector and the Inner Detector. </li>
+          </ul>
+
           <p>Now, what happens if there is new physics out there that differs vastly from what these triggers look for?  In that case, these new physics events would never be stored, nobody would ever see them, and no discovery could ever be made.  And this is where my research begins...</p>
 
           <h4>Triggers for Displaced Decays</h4>
